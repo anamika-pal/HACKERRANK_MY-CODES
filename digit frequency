@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    char str[50];
+    int count,i,num;
+    scanf("%s",&str[i]);
+    
+    num=0;
+    while(num<10)
+    {  
+     count=0;
+    for(i=0;i<(strlen(str));i++)
+    {  
+        if(str[i]==num)
+        {
+            count++;
+        }
+    }
+    printf("%d",count);
+    num++;
+    }
+    return 0;
+}
